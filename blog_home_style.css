@@ -1,5 +1,6 @@
 @import url(blog_main_style.css);
 @import url(blog_header_footer_style.css);
+@import url(social_share.css);
 @import url("https://fonts.googleapis.com/css2?family=Inter");
 
 main img {
@@ -66,6 +67,11 @@ main img {
   border: #f77f00;
   color: 2px dotted #d62828;
   background-color: #eae2b7;
+}
+
+.articles_head {
+  display: flex;
+  justify-content: space-between;
 }
 
 .supers_list {
